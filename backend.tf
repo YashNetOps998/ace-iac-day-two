@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.2.0"
   backend "remote" {
-    organization = "viatrixHCPLabs"
+    organization = "AviatrixHCPLabs"
     workspaces {
       name = "ace-iac-day-two"
     }
