@@ -3,7 +3,7 @@ terraform {
   backend "remote" {
     organization = "AviatrixHCPLabs"
     workspaces {
-      name = "ace-iac-day-two-1"
+      name = "ace-iac-day-two"
     }
   }
 }
